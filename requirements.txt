@@ -1,0 +1,23 @@
+# Web & API
+fastapi
+uvicorn[standard]
+python-multipart  # Para recibir archivos PDF
+python-jose[cryptography] # JWT para Auth
+passlib[bcrypt]    # Hash de contraseñas
+
+# Base de Datos
+sqlmodel          # SQLAlchemy + Pydantic (perfecto para FastAPI)
+psycopg2-binary   # Driver para PostgreSQL
+alembic           # Migraciones
+
+# Procesamiento y LLM
+polars
+pdfplumber
+langchain
+langchain-openai
+pydantic
+
+# Visualización y Testeo
+plotly
+pytest
+httpx
