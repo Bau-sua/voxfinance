@@ -4,6 +4,7 @@ uvicorn[standard]
 python-multipart  # Para recibir archivos PDF
 python-jose[cryptography] # JWT para Auth
 passlib[bcrypt]    # Hash de contraseñas
+python-dotenv
 
 # Base de Datos
 sqlmodel          # SQLAlchemy + Pydantic (perfecto para FastAPI)
@@ -12,12 +13,17 @@ alembic           # Migraciones
 
 # Procesamiento y LLM
 polars
+pymupdf
 pdfplumber
 langchain
 langchain-openai
+langchain-groq
 pydantic
 
 # Visualización y Testeo
 plotly
 pytest
 httpx
+weasyprint
+structlog
+asyncpg
